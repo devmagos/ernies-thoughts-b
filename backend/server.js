@@ -50,7 +50,7 @@ app.post('/publishpost', async (req,res)=>{
   });
   
 
-  app.get('/getposts',(req,res)=>{
+  app.get('/ernies-thoughts-b.herokuapp.com',(req,res)=>{
     blogpost.find({},(err,data)=>{
       if(err) {console.log(err)}
       else{
